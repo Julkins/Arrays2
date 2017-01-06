@@ -46,7 +46,7 @@ public class Task2 {
         if (average1 < average2) {
             System.out.println("Average of the second array is bigger");
         }
-        if (average1 == average2) {
+        else {
             System.out.println("Arrays have the same average");
         }
 
