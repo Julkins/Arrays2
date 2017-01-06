@@ -18,12 +18,10 @@ public class Task1 {
             if (i % 2 != 0) {
 
                 array[i] = 0;
-
             }
             System.out.println(array[i]);
 
         }
-
     }
 }
 
