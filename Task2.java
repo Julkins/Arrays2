@@ -21,8 +21,8 @@ public class Task2 {
 
         for (int i = 0; i < array1.length; i++) {
             summa1 = summa1 + array1[i];
-            average1 = summa1 / array1.length;
         }
+        average1 = summa1 / array1.length;
 
         System.out.println();
         System.out.println("Average of the first array is " + String.format("%.5f", average1));
@@ -34,8 +34,9 @@ public class Task2 {
 
         for (int i = 0; i < array1.length; i++) {
             summa2 = summa2 + array2[i];
-            average2 = summa2 / array2.length;
         }
+
+        average2 = summa2 / array2.length;
         System.out.println();
         System.out.println("Average of the second array is " + String.format("%.5f", average2));
 
@@ -45,8 +46,7 @@ public class Task2 {
         }
         if (average1 < average2) {
             System.out.println("Average of the second array is bigger");
-        }
-        else {
+        } else {
             System.out.println("Arrays have the same average");
         }
 
