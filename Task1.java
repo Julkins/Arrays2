@@ -8,6 +8,7 @@ import static com.sun.jmx.snmp.ThreadContext.contains;
  * Выведите массив на экран в строку. Замените каждый элемент с нечётным индексом на ноль. Снова выведете массив на экран на отдельной строке.
  */
 public class Task1 {
+
     public static void main(String[] args) {
 
         int[] array = new int[8];
