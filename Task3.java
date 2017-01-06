@@ -11,15 +11,12 @@ public class Task3 {
             array[i] = (int) ((Math.random() * 90) + 10);
             System.out.print(array[i] + " ");
 
-                if (array[maxIndex] < array[i]) {
-                    maxIndex = i;
-                }
+            if (array[maxIndex] < array[i]) {
+                maxIndex = i;
+            }
+        }
 
-       }
-
-        System.out.println("Max array element is " + array[maxIndex]);
-
-        if (array[maxIndex] != array[array.length-1]) {
+        if (array[maxIndex] != array[array.length - 1]) {
             System.out.println("Последовательность не является строго возрастающей");
         }
     }
