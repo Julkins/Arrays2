@@ -19,8 +19,8 @@ public class Task1 {
 
                 array[i] = 0;
             }
-            System.out.println(array[i]);
 
+            System.out.println(array[i]);
         }
     }
 }
