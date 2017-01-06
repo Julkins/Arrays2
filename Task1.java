@@ -8,6 +8,7 @@ import static com.sun.jmx.snmp.ThreadContext.contains;
  */
 public class Task1 {
     public static void main(String[] args) {
+
         int [] array = new int[10];
 
     }
